@@ -22,10 +22,15 @@
 }
 
 .flex-item1 {
-    background-color: darkkhaki;
+    /* background-color: darkkhaki; */
     min-width: 100px;
     aspect-ratio: 1/1;
     min-height:fit-content;
+}
+.flex-item1 img,
+.flex-item2 img,
+.flex-item3 img {
+    width: 200px
 }
 
 .flex-container2 {
@@ -39,11 +44,12 @@
 }
 
 .flex-item2 {
-    background-color: rgb(15, 234, 7);
+    /* background-color: rgb(15, 234, 7); */
     min-width: 100px;
     aspect-ratio: 1/1;
     min-height:fit-content;
 }
+
 
 .flex-container3 {
     display: flex;
@@ -56,7 +62,7 @@
 }
 
 .flex-item3 {
-    background-color: rgb(8, 192, 248);
+    /* background-color: rgb(8, 192, 248); */
     min-width: 100px;
     aspect-ratio: 1/1;
     min-height:fit-content;
