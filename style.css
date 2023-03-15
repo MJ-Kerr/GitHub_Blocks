@@ -27,6 +27,9 @@
     aspect-ratio: 1/1;
     min-height:fit-content;
 }
+.flex-item1 img{
+    width: 200px
+}
 
 .flex-container2 {
     display: flex;
