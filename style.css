@@ -3,6 +3,13 @@
     height: 0;
     gap: 20px;
 }
+.title{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 20px;
+    text-align: center;
+}
 
 .flex-container1 {
     display: flex;
@@ -11,6 +18,7 @@
     align-items: center;
     gap: 20px;
     min-height: 200px;
+    margin: 25px;
 }
 
 .flex-item1 {
@@ -22,15 +30,16 @@
 
 .flex-container2 {
     display: flex;
-    justify-content:space-around;
-    background-color: bisque;
+    justify-content:space-evenly;
+    background-color: rgb(244, 55, 8);
     align-items: center;
     gap: 20px;
     min-height: 200px;
+    margin: 25px;
 }
 
 .flex-item2 {
-    background-color: darkkhaki;
+    background-color: rgb(15, 234, 7);
     min-width: 100px;
     aspect-ratio: 1/1;
     min-height:fit-content;
@@ -38,11 +47,12 @@
 
 .flex-container3 {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     background-color: rgb(163, 167, 48);
     align-items: center;
     gap: 20px;
     min-height: 200px;
+    margin: 25px;
 }
 
 .flex-item3 {
