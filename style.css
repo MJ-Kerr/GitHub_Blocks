@@ -1,17 +1,31 @@
-h1 {
+.banner {
     display: flex;
     justify-content:center;
     align-items: center;
     color:blueviolet;
+    padding: 40px;
 }
 
-.container {
-    display: flex;
+.container1 {
+    display:flex;
+    flex: content;
     justify-content:space-around;
     align-items:center;
-    background-color: aquamarine ;
+    background-color: aquamarine;
+    /* height: 200px; */
+    /* width: 200px; */
 }
 
-.image.octocat {
-    height: 200px;
+.container2 {
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color: aqua;
+}
+
+.container3 {
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    background-color:blue;
 }
