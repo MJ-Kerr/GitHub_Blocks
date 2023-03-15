@@ -4,3 +4,14 @@ h1 {
     align-items: center;
     color:blueviolet;
 }
+
+.container {
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    background-color: aquamarine ;
+}
+
+.image.octocat {
+    height: 200px;
+}
