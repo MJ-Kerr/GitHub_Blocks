@@ -1,31 +1,90 @@
-.banner {
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    color:blueviolet;
-    padding: 40px;
+.container{
+    width: 70%;
+    height: 0;
+    gap: 20px;
 }
 
-.container1 {
-    display:flex;
-    flex: content;
+.flex-container1 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: bisque;
+    align-items: center;
+    gap: 20px;
+    min-height: 200px;
+}
+
+.flex-item1 {
+    background-color: darkkhaki;
+    min-width: 100px;
+    aspect-ratio: 1/1;
+    min-height:fit-content;
+}
+
+.flex-container2 {
+    display: flex;
     justify-content:space-around;
-    align-items:center;
-    background-color: aquamarine;
+    background-color: bisque;
+    align-items: center;
+    gap: 20px;
+    min-height: 200px;
+}
+
+.flex-item2 {
+    background-color: darkkhaki;
+    min-width: 100px;
+    aspect-ratio: 1/1;
+    min-height:fit-content;
+}
+
+.flex-container3 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(163, 167, 48);
+    align-items: center;
+    gap: 20px;
+    min-height: 200px;
+}
+
+.flex-item3 {
+    background-color: rgb(8, 192, 248);
+    min-width: 100px;
+    aspect-ratio: 1/1;
+    min-height:fit-content;
+}
+/* .banner { */
+    /* display:flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* color: blueviolet; */
+    /* padding: 40px; */
+    /* background-color: yellow; */
+/* } */
+/*  */
+/* .container1 { */
+    /* display:flex; */
+    /* flex: content; */
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    /* background-color: aquamarine; */
+    /* flex-direction: row; */
+    /* width: 70%; */
+    /* margin: 0 auto; */
     /* height: 200px; */
     /* width: 200px; */
-}
-
-.container2 {
-    display:flex;
-    justify-content: space-between;
-    align-items:center;
-    background-color: aqua;
-}
-
-.container3 {
-    display:flex;
-    justify-content: space-around;
-    align-items:center;
-    background-color:blue;
-}
+/* } */
+/*  */
+/* .container2 { */
+    /* display: flex; */
+    /* justify-content: space-evenly; */
+    /* align-items: center; */
+    /* background-color: aqua; */
+    /* flex-direction: row; */
+/* } */
+/*  */
+/* .container3 { */
+    /* display: flex; */
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    /* background-color: blue; */
+    /* flex-direction: row; */
+/* } */
